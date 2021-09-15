@@ -1,0 +1,9 @@
+#cv{
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: strecth;
+  height: calc(99vh - 20px);
+  resize: both;
+  border:1px
+}

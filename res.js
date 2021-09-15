@@ -1,7 +1,7 @@
 //Resources for PaintX
 const r={
   install:{
-    firstInstall:[["px_language","en_us"],["debug_debugmode",true],["px_textEncoding","UTF-8"],["ui_theme","paintx_default"],["ui_colorscheme","paintx_dark"],["debug_flags",'{"00":true}']],
+    firstInstall:[["px_language","en_us"],["debug_debugmode",true],["px_textEncoding","UTF-8"],["ui_theme","paintx_default"],["ui_colorscheme","paintx_dark"],["debug_flags",'{"00":true,"01":"Untitled"}']],
   },
   meta:{
     dev:{
@@ -36,7 +36,6 @@ const r={
 const s={
   en_us:{
     paintx_title:"PaintX",
-    paintx_file_defaultname:"Untitled",
     error_occur:"An error occured...",
     error_px000_name:"Unknown error",
     error_px000_desc:"An unknown error occured.",
