@@ -4,7 +4,7 @@
   "description":"Open-source image editor. (i might not complete this)",
   "start_url":"/",
   "display":"standalone",
-  "theme_color":"#000000",
+  "theme_color":"#0D00FF",
   "icons":[
     {
       "src":"/icns/512.png",
@@ -24,6 +24,17 @@
         "image/svg+xml":[".svg",".xml"],
         "image/png":[".png"]
       }
+    }
+  ],
+  "shortcuts":[
+    {
+      "name":"New Image",
+      "url":"/#newimage",
+      "icons":[{
+      "src":"/icns/pwa.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    }]
     }
   ]
 }
