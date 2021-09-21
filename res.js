@@ -6,7 +6,7 @@ const r={
   meta:{
     version:"v0.0",
     dev:{
-      todo:"[TODO] Use actual icons for pwa.\n[TODO] Use IndexedDB for undo cache, save storage, ect.\n[TODO] Improve portability.\n[TODO] Implement new styling themes.\n[TODO] Implement new color schemes.\n[TODO] Implement dialogs.\n[TODO] Implement metadata editor.\n[TODO] Fix Service Worker.\n[TODO] Find more icons.\n[TODO] Integrate image uploading.",
+      todo:"[TODO] Use actual icons for pwa.\n[TODO] Use IndexedDB for undo cache, save storage, ect.\n[TODO] Improve portability.\n[TODO] Implement new styling themes.\n[TODO] Implement new color schemes.\n[TODO] Implement dialogs.\n[TODO] Implement metadata editor.\n[TODO] Fix Service Worker.\n[TODO] Find more icons.\n[TODO] Integrate image uploading.\n[TODO] Make local version.",
       gh:"github.com/polygonnedpotato/paintx"
     },
     icon:{
@@ -53,6 +53,7 @@ const s={
     paintx_release_alpha:"Alpha release",
     paintx_release_beta:"Beta release",
     paintx_release_offline:"Offline release",
+    paintx_readme:"# PaintX\nAn Open-source image editor.\n## TODO\nTo see what needs to be done, just execute the following code:\n```js\npx.dbg.showDevInfo(\"00\")\n```",
     debug_todo:"Coding tasks that require completion:",
     error_occur:"An error occured...",
     error_px000_name:"Unknown error",
