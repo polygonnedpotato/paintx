@@ -9,12 +9,19 @@
     <link id="fv" href="" rel="icon" type="image/png"/>
   </head>
   <body>
-    <div id="topbar"></div>
+    <div id="topbar">
+      <tbb id="file-button">
+        <a>File</a>
+        <div class="ddm file">
+          <a onclick="px.doc.file.new()">New File</a>
+        </div>
+      </tbb>
+    </div>
     <div id="cvdiv">
       <canvas id="cv"></canvas>
     </div>
     <ldWin id="lw" class="win" hidden>
-      <a id="lwt"></a><br><progress id="lwp">undefined</progress>
+      <a id="lwt"></a><br><progress id="lwp" max="100">undefined</progress>
     </ldWin>
     <script src="res.js"></script>
     <script src="idb.js"></script>
