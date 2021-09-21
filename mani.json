@@ -31,7 +31,7 @@
       "name":"New Image",
       "url":"/#newimage",
       "icons":[{
-      "src":"/icns/pwa.png",
+      "src":"/icns/lib.png",
       "sizes":"512x512",
       "type":"image/png"
     }]

@@ -1,15 +1,16 @@
 var CACHE_NAME = 'paintx_v0.0';
-var urlsToCache = ['/','/style.css','/script.js','/icns/512.png','/icns/192.png','/mani.json','/idb.js','https://swhub.elburgstoolbox.repl.co/js/jquery-min.js','/res.js'];
+var urlsToCache = ['/','/style.css','/script.js','/icns/512.png','/icns/192.png','/icns/pwa.png','/mani.json','/idb.js','https://swhub.elburgstoolbox.repl.co/js/jquery-min.js','/res.js'];
 
 self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
-  );
-});
+  try{
+    event.waitUntil(
+      caches.open(CACHE_NAME)
+        .then(function(cache) {
+          console.log('Opened cache');
+          return cache.addAll(urlsToCache);
+        })
+    );
+  }catch(err){console.error("something happened to sw during \"install\" event",err)}});
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request)
